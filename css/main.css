@@ -1,0 +1,71 @@
+/* PRUEBA DE FONDO*/
+body{
+	background-color: #3a2640;
+}
+/*PRUEBA DE FONDO*/
+ /* Inicio Slider galeria*/
+ .padding{
+ 	padding-top: 3%;
+	padding-bottom: 3%;
+ }
+.frase{
+	font-size: 40px;
+	text-align: center;
+	color: white;
+}
+.author{
+	text-align: right;
+	color: white;
+}
+.slider{
+ 	max-height: 400px;
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+.slider ul{
+	padding: 0;
+	display: flex;
+	width: 1000%;
+	animation: cambio 50s infinite alternate;
+	animation-timing-function: linear;
+}
+.slider li{
+	list-style: none;
+	width: 100%;
+}
+.slider img{
+	width: 100%;
+}
+@keyframes cambio{
+	0% {margin-left: -0;}
+	10% {margin-left: -0;}
+
+	10% {margin-left: -100%;}
+	20%{margin-left: -100%;}
+
+	20% {margin-left: -200%;}
+	30% {margin-left: -200%;}
+
+	30% {margin-left: -300%;}
+	40% {margin-left: -300%;}
+
+	40% {margin-left: -400%;}
+	50% {margin-left: -400%;}
+
+	50% {margin-left: -500%;}
+	60% {margin-left: -500%;}
+	
+	60% {margin-left: -600%;}
+	70% {margin-left: -600%;}
+
+	70% {margin-left: -700%;}
+	80% {margin-left: -700%;}
+
+	80% {margin-left: -800%;}
+	90% {margin-left: -800%;}
+
+	90% {margin-left: -800%;}
+	100% {margin-left: -800%;}
+}
+/* Fin Slider galeria*/
