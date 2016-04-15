@@ -127,3 +127,47 @@ body{
 .iconos{
 	margin-left: 150px;
 }
+.maps img {
+	margin-top: 30px;
+	width: 100%;
+	height: 350px;
+
+}
+
+.direction {
+	margin-left: 0;
+	font-family: Helvetica;
+}
+
+.direction h4 {
+	font-size: 20px;
+	color: #690570;
+	margin-top: 40px;
+}
+
+.ubication p {
+	font-size: 16px;
+}
+
+.listas ul li {
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+.listas li a {
+	text-decoration: none;
+	color: black;
+}
+
+.listas ul li:hover a {
+	color: #690570;
+}
+
+.formulario {
+	margin-top: 40px;
+}
+
+.formulario .enviar {
+	margin-top: 30px;
+	width: 60px;
+}
