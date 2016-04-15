@@ -1,3 +1,4 @@
+
 /* PRUEBA DE FONDO*/
 body{
 	background-color: #3a2640;
@@ -95,3 +96,34 @@ body{
 	padding: 100px;
 }
 
+
+.col-12{
+	background-color: #565656; 
+	opacity: 0.5; 
+	width: 100%; 
+	padding: 65px;
+	left: 20px;
+	}
+
+#footer{
+	background-color: #212121; 
+	width:100%; 
+	min-height: 70px; 
+	font-size: 15px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	color: #C1B5B5;
+	}
+
+.box{
+	margin-left:410px;
+}
+.icon{
+	padding-top: 10px;
+	color: white;
+	display: inline-block;
+	left: 60px;
+}
+.iconos{
+	margin-left: 150px;
+}
